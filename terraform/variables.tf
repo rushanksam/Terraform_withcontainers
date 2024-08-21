@@ -67,7 +67,7 @@ variable "log_retention_in_days" {
 
 variable "ssh_pubkey_file" {
   description = "Path to an SSH public key"
-  default     = "/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/Terraform_withcontainers/terraform/california-region-key-pair.pub"
+  default     = "/root/Terraform_withcontainers/terraform/california-region-key-pair.pub"
 }
 
 
@@ -89,7 +89,7 @@ variable "instance_type" {
 }
 variable "docker_image_url_django" {
   description = "Docker image to run in the ECS cluster"
-  default     = "600735812827.dkr.ecr.us-west-1.amazonaws.com/django-app:latest"
+  default     = "789509754404.dkr.ecr.us-west-1.amazonaws.com/django-app"
 }
 variable "app_count" {
   description = "Number of Docker containers to run"
